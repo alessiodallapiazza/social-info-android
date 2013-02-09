@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="noresult">Nessun risultato.</string>
+    <string name="search">Aspetta grazie.</string>
+    <string name="title">Ricerca in corso:</string>
+    <string name="error_search_info">Completa il testo</string>
+    <string name="error_search_online">Errore, connessione mancante.</string>
+    <string name="example">email@gmail.com</string>
+    <string name="app_name">Social Info</string>
+    <string name="about_title">About</string>
+    <string name="main_title">Social Info</string>
+    <string name="menu_settings">About</string>
+    <string name="search_button">Cerca</string>
+    <string name="about">Inserisci un numero di telefono, una mail per avere a disposizione un nome e un cognome.\nLa ricerca è effettuata sfruttando facebook.\n\n Alessio Dalla Piazza \n=================\n Email: alessio.dallapiazza@gmail.com \n=================\n Blog: www.clshack.com</string>
+
+</resources>

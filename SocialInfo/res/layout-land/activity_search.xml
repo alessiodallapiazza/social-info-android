@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+     >
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/search_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:freezesText="true" />
+
+    <Button
+        android:id="@+id/search_button"
+        style="@style/lightboxButton.Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search_info"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/search_info"
+        android:layout_marginRight="20dp"
+        android:minWidth="120dp"
+        android:text="@string/search_button" />
+
+    <EditText
+        android:id="@+id/search_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/example"
+        android:inputType="textPersonName"
+        android:minWidth="350dp" >
+    </EditText>
+
+    <WebView
+        android:id="@+id/img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/error_text"
+        android:layout_centerInParent="true"
+               android:freezesText="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/ads"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+
+</RelativeLayout>

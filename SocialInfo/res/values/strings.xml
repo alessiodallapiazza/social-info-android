@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="noresult">Sorry, no results.</string>
+    <string name="search">Please wait.</string>
+    <string name="title">Searching:</string>
+    <string name="error_search_info">Insert string.</string>
+    <string name="error_search_online">Error, you are not online.</string>
+	<string name="example">email@gmail.com</string>
+    <string name="app_name">Social Info</string>
+    <string name="about_title">About</string>
+    <string name="main_title">Social Info</string>
+    <string name="menu_settings">About</string>
+    <string name="search_button">Search</string>
+    <string name="about">Try to insert email or phone number.\nThis app search on facebook.\n\n Alessio Dalla Piazza \n=================\n Email: alessio.dallapiazza@gmail.com \n=================\n Blog: www.clshack.com</string>
+</resources>
